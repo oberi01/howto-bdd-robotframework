@@ -5,7 +5,7 @@ Library  OperatingSystem
 Library  RequestsLibrary
 
 *** Test Cases ***
-Donwload xkcd comic to a file
+Download xkcd comic to a file
     [Documentation]  Test if png file is not empty
 
     Given Session "xkcd" to Site "https://xkcd.com"
